@@ -4,30 +4,11 @@ Welcome to my mini-projects showcase! This repository is a curated collection of
 
 The goal of this repository is to demonstrate foundational skills in API integration, dynamic DOM manipulation, interactive layout transformations, and modern glassmorphism aesthetics without the overhead of heavy frameworks or dependencies.
 
----
 
-## 📁 Repository Structure
+## 🚀 Projects Overview
 
-To explore the projects, navigate into their respective directories:
-
-text
-mini-projects-portfolio/
-├── 01-github-user-explorer/     # 🔍 Live API User Finder Grid
-│   ├── index.html
-│   ├── style.css
-│   └── index.js
-├── 02-mood-matcher/             # 🎨 Interactive UI Environment Transformer
-│   ├── index.html
-│   ├── style.css
-│   └── code.js
-└── 03-inspired-mind-quotes/     # 🌌 Interactive High-Fidelity Quote Dashboard
-    ├── index.html
-    ├── eff.css
-    └── first.js
-
-🚀 Projects Overview
-
-1. 🔍 GitHub User Explorer: A sleek, responsive dashboard connecting seamlessly to the official GitHub API to pull live profile information down into a beautifully scaled grid interface.
+### 1. 🔍 GitHub User Explorer:
+A sleek, responsive dashboard connecting seamlessly to the official GitHub API to pull live profile information down into a beautifully scaled grid interface.
 
 💡 Core Concepts: Modern Asynchronous Streams (async/await), Fetch API error diagnostics, and dynamic UI creation loop blocks.
 
@@ -35,7 +16,8 @@ mini-projects-portfolio/
 
 🛠️ Tech Stack: HTML5, CSS3 (Dark-mode configurations, flex wraps), and JavaScript ES6+.
 
-2. 🎨 The Mood Matcher Experience: An interactive environmental application that shifts your digital workspace background layouts and typography to perfectly align with your current mindset.
+### 2. 🎨 The Mood Matcher Experience: 
+An interactive environmental application that shifts your digital workspace background layouts and typography to perfectly align with your current mindset.
 
 💡 Core Concepts: JavaScript Object mappings, dataset conditional loops, and programmatic attribute tracking token checks.
 
@@ -43,7 +25,8 @@ mini-projects-portfolio/
 
 🛠️ Tech Stack: HTML5 (Interactive dashboard design), CSS3 (Hardware-accelerated keyframe layouts, custom cubic-bezier curves), and JavaScript ES6+.
 
-3. 🌌 Inspired Mind - Random Quote Generator: A high-fidelity minimalist single-page application crafted to pull structured wisdom quotes into a centralized frosted-glass frame widget container.
+### 3. 🌌 Inspired Mind - Random Quote Generator:
+A high-fidelity minimalist single-page application crafted to pull structured wisdom quotes into a centralized frosted-glass frame widget container.
 
 💡 Core Concepts: Multi-index tracking arrays, pseudo-random array item lookup distributions, and semantic container nesting templates.
 
@@ -51,10 +34,10 @@ mini-projects-portfolio/
 
 🛠️ Tech Stack: HTML5 (Text containers and structural cards), CSS3 (Frosted glass background treatment parameters), and JavaScript ES6+ (Array loops processing).
 
-⚡ Getting Started & Local Execution
+### ⚡ Getting Started & Local Execution:
 Because all components are engineered entirely out of vanilla frontend files, there are no node dependencies to install, setup installations, or compilation build lines.
 
-Launch an application:
+###  🖥️ Launch an application:
 Navigate into any specific project subfolder and double-click its native index.html file to run the web application directly within your browser (Chrome, Firefox, Safari, Edge).
 
 Tip: For the smoothest state mutation and animation tracking behaviors, serving the root workspace directory using the VS Code Live Server extension is highly recommended.
