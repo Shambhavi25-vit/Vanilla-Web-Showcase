@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🚀 Vanilla Web Development Mini-Projects Showcase
 
 Welcome to my mini-projects showcase! This repository is a curated collection of lightweight frontend web applications built entirely using native web standards: standard semantic **HTML5**, **CSS3** layouts, and pure modern **JavaScript (ES6+)**. 
@@ -27,8 +26,8 @@ mini-projects-portfolio/
     └── first.js
 
 🚀 Projects Overview
-1. 🔍 GitHub User Explorer
-A sleek, responsive dashboard connecting seamlessly to the official GitHub API to pull live profile information down into a beautifully scaled grid interface.
+
+1. 🔍 GitHub User Explorer: A sleek, responsive dashboard connecting seamlessly to the official GitHub API to pull live profile information down into a beautifully scaled grid interface.
 
 💡 Core Concepts: Modern Asynchronous Streams (async/await), Fetch API error diagnostics, and dynamic UI creation loop blocks.
 
@@ -36,8 +35,7 @@ A sleek, responsive dashboard connecting seamlessly to the official GitHub API t
 
 🛠️ Tech Stack: HTML5, CSS3 (Dark-mode configurations, flex wraps), and JavaScript ES6+.
 
-2. 🎨 The Mood Matcher Experience
-An interactive environmental application that shifts your digital workspace background layouts and typography to perfectly align with your current mindset.
+2. 🎨 The Mood Matcher Experience: An interactive environmental application that shifts your digital workspace background layouts and typography to perfectly align with your current mindset.
 
 💡 Core Concepts: JavaScript Object mappings, dataset conditional loops, and programmatic attribute tracking token checks.
 
@@ -45,8 +43,7 @@ An interactive environmental application that shifts your digital workspace back
 
 🛠️ Tech Stack: HTML5 (Interactive dashboard design), CSS3 (Hardware-accelerated keyframe layouts, custom cubic-bezier curves), and JavaScript ES6+.
 
-3. 🌌 Inspired Mind - Random Quote Generator
-A high-fidelity minimalist single-page application crafted to pull structured wisdom quotes into a centralized frosted-glass frame widget container.
+3. 🌌 Inspired Mind - Random Quote Generator: A high-fidelity minimalist single-page application crafted to pull structured wisdom quotes into a centralized frosted-glass frame widget container.
 
 💡 Core Concepts: Multi-index tracking arrays, pseudo-random array item lookup distributions, and semantic container nesting templates.
 
@@ -57,14 +54,6 @@ A high-fidelity minimalist single-page application crafted to pull structured wi
 ⚡ Getting Started & Local Execution
 Because all components are engineered entirely out of vanilla frontend files, there are no node dependencies to install, setup installations, or compilation build lines.
 
-Clone the portfolio workspace repository:
-
-Bash
-git clone [https://github.com/your-username/mini-projects-portfolio.git](https://github.com/your-username/mini-projects-portfolio.git)
-Move inside the target folder directory:
-
-Bash
-cd mini-projects-portfolio
 Launch an application:
 Navigate into any specific project subfolder and double-click its native index.html file to run the web application directly within your browser (Chrome, Firefox, Safari, Edge).
 
