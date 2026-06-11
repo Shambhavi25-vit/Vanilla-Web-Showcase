@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mood Matcher Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="main-container">
+        <header id="ui-header">
+            <h1>How are you feeling right now?</h1>
+            <p>Pick a mood to transform your entire space.</p>
+        </header>
+
+        <!-- Central Display Panel -->
+        <div class="display-box">
+            <span id="mood-emoji">✨</span>
+            <h2 id="mood-title">Choose Your Vibe</h2>
+            <p id="mood-quote">"Your environment shapes your mindset. Choose intentionally."</p>
+        </div>
+
+        <!-- Interactive Grid Dashboard -->
+        <div class="mood-grid" id="ui-grid">
+            <button class="mood-btn" data-mood="stressed">🧘 Stressed</button>
+            <button class="mood-btn" data-mood="creative">🎨 Creative</button>
+            <button class="mood-btn" data-mood="sleepy">☕ Sleepy</button>
+            <button class="mood-btn" data-mood="energetic">⚡ Energetic</button>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>

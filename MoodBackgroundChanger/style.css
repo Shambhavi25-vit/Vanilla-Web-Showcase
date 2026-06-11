@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, #1e1e2f, #2a2a40, #11111e, #0c0c14);
+    background-size: 400% 400%;
+    color: #eceff4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    transition: background 1.5s ease;
+}
+
+/* Kicks off the moving fluid canvas effect */
+body.animated-bg {
+    animation: gradientAnimation 12s ease infinite;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    padding: 40px;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+header p {
+    color: #d8dee9;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+.display-box {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 35px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#mood-emoji {
+    font-size: 3.5rem;
+    display: inline-block;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite alternate;
+}
+
+#mood-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+#mood-quote {
+    font-style: italic;
+    color: #e5e9f0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.mood-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 35px;
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: 300px;
+    opacity: 1;
+}
+
+.mood-btn {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+    padding: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.mood-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateY(-4px);
+}
+
+/* UI Helpers for the Transformation Timeline */
+.hidden-elements {
+    opacity: 0 !important;
+    max-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.expanded-card {
+    padding: 60px 40px;
+    max-width: 650px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes bounce {
+    from { transform: translateY(0); }
+    to { transform: translateY(-8px); }
+}
